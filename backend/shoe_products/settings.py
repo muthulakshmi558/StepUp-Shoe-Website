@@ -193,7 +193,9 @@ AUTHENTICATION_BACKENDS = [
 
 
 # CORS settings
-CORS_ALLOW_ORIGINS = ["stepup-shoe-website.onrender.com"]
+CORS_ALLOWED_ORIGINS = [
+    "https://stepup-shoe-website.onrender.com",
+]
 CORS_ALLOW_HEADERS = [
     "content-type",
     "authorization",
