@@ -135,10 +135,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'  # for collectstatic
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
-
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
-
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
@@ -166,7 +164,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.IsAuthenticated',  
     ),
 }
 
@@ -194,13 +192,15 @@ AUTHENTICATION_BACKENDS = [
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "https://step-up-shoe-website.vercel.app",
+    "https://step-up-shoe-website.vercel.app",  # Frontend URL
+    "https://stepup-shoe-website.onrender.com", # Backend self requests
 ]
 CORS_ALLOW_HEADERS = [
     "content-type",
     "authorization",
     "x-csrftoken",
 ]
+
 CORS_ALLOW_CREDENTIALS = True
 from datetime import timedelta
 
