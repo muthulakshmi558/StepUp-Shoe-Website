@@ -194,7 +194,7 @@ AUTHENTICATION_BACKENDS = [
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "https://stepup-shoe-website.onrender.com",
+    "https://step-up-shoe-website.vercel.app",
 ]
 CORS_ALLOW_HEADERS = [
     "content-type",
