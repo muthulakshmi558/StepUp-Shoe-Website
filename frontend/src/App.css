@@ -1,0 +1,5 @@
+.slick-dots {
+  position: static !important;   /* remove absolute positioning */
+  margin-top: 10px;              /* add spacing below the slider */
+  text-align: center;
+}

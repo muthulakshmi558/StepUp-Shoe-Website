@@ -1,0 +1,82 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Ophelia Womens Silver Diamante Heel",
+      "price": "2299",
+      "image": "products/ophelia.png",
+      "category": "Women"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Billie Womens Silver Diamante Heel",
+      "price": "3000",
+      "image": "products/billie.jpg",
+      "category": "Women"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Drew Womens Blush Diamante Slip On Shoe",
+      "price": "2599",
+      "image": "products/drew_blush.jpg",
+      "category": "Women"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Drew Womens Navy Diamante Slip On Shoe",
+      "price": "1299",
+      "image": "products/drew_navy.jpg",
+      "category": "Women"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Weaver Mens Navy Lace Up Trainer",
+      "price": "2799",
+      "image": "products/weaver_navy.jpg",
+      "category": "Men"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Weaver Mens White Lace Up Trainer",
+      "price": "2259",
+      "image": "products/weaver_white.jpg",
+      "category": "Men"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Calista Girls Pink Daisy Print Sandal",
+      "price": "2899",
+      "image": "products/calista.jpg",
+      "category": "Women"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Colby Boys Blue Dinosaur Canvas",
+      "price": "3299",
+      "image": "products/colby.jpg",
+      "category": "Men"
+    }
+  }
+]

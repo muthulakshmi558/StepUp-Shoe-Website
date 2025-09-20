@@ -1,0 +1,42 @@
+# ========================
+# Python / Django Backend
+# ========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Environment variables
+*.env
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Ignore Python virtual environment
+venv/
+env/
+
+# Django staticfiles (collected) - can be regenerated
+/staticfiles/
+
+# Don't ignore database and media
+# Track these to keep your data live
+# db.sqlite3
+# media/
+
+# ========================
+# Node / React Frontend
+# ========================
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
