@@ -23,10 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-udite)hny++9aoft4--l@==kbg!tdqer4kcvmwnl-dtk!@kp1s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['stepup-shoe-website.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -194,7 +193,7 @@ AUTHENTICATION_BACKENDS = [
 
 
 # CORS settings
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ORIGINS = ["stepup-shoe-website.onrender.com"]
 CORS_ALLOW_HEADERS = [
     "content-type",
     "authorization",
